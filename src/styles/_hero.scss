@@ -68,3 +68,19 @@
         }
     }
 }
+
+@media (max-width: 640px) {
+    .hero {
+        padding: 50px 25px;
+        margin-bottom: 2rem;
+    
+        &__content {
+            display: block;
+            
+            &__title {
+                max-width: 100%;
+                margin-bottom: 10rem;
+            }
+        }
+    }
+}
